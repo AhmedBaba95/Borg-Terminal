@@ -1,0 +1,26 @@
+/* App.css */
+
+.App {
+  /* Other styles... */
+
+  /* Styling for the custom scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: gray transparent;
+  overflow-y: auto;
+}
+
+.App::-webkit-scrollbar {
+  width: 12px; /* Adjust the width of the scrollbar */
+}
+
+.App::-webkit-scrollbar-thumb {
+  background-color: gray; /* Color of the scrollbar thumb */
+}
+
+.App::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the scrollbar track */
+}
+
+.App::-webkit-scrollbar-corner {
+  background-color: transparent; /* Color of the scrollbar corner */
+}
